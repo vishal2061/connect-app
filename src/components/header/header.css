@@ -1,0 +1,133 @@
+.dashboard-header .navbar {
+  padding: 0px;
+  border-bottom: 1px solid #e6e6f2;
+  -webkit-box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13);
+  box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13);
+  -webkit-transition: all 0.3s ease;
+  min-height: 60px;
+}
+
+.navbar-brand {
+  display: inline-block !important;
+  margin-right: 1rem !important;
+  line-height: inherit !important;
+  white-space: nowrap !;
+  padding: 11px 20px !important;
+  font-size: 30px !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  color: #007bff !important;
+}
+.navbar-brand:hover {
+  color: #007bff !important;
+}
+.navbar-right-top .nav-item {
+  border-right: 1px solid #e6e6f2 !important;
+}
+
+.navbar-right-top .nav-item:last-child {
+  border: none;
+}
+
+.navbar-right-top .nav-item .nav-link {
+  padding: 13px 20px !important;
+  font-size: 16px !important;
+  line-height: 2 !important;
+  color: #6f718b !important;
+}
+
+.top-search-bar {
+  padding-top: 12px !important;
+  padding-right: 24px !important;
+}
+
+.notification {
+}
+
+.notification-dropdown {
+  min-width: 320px !important;
+}
+
+.notification-dropdown,
+.connection-dropdown,
+.nav-user-dropdown {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.notification-title {
+  font-size: 14px !important;
+  color: #3d405c !important;
+  text-align: center !important;
+  padding: 8px 0px;
+  border-bottom: 1px solid #e3e3e3;
+  line-height: 1.5;
+  background-color: #fffffe;
+}
+
+.notification-list {
+}
+
+.notification-list .list-group-item {
+  border-radius: 0px;
+  padding: 12px;
+  margin-top: -1px;
+  border-left: transparent;
+  border-right: transparent;
+}
+
+.notification-list .list-group-item.active {
+  z-index: 2;
+  color: #3d405c;
+  background-color: #f7f7fb;
+  border-color: #e1e1e7;
+}
+
+.notification-list .list-group-item-action:focus,
+.list-group-item-action:hover {
+  color: #404040;
+  text-decoration: none;
+  background-color: #f7f7fb;
+}
+
+.notification-list .list-group-item:last-child {
+}
+
+.notification-info {
+}
+
+.notification-info .notification-date {
+  display: block;
+  font-size: 11px;
+  margin-top: 4px;
+  text-transform: uppercase;
+  color: #71748d;
+}
+
+.notification .dropdown-toggle::after,
+.connection .dropdown-toggle::after,
+.nav-user .dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border: none;
+}
+
+.notification-list-user-img {
+  float: left;
+}
+
+.notification-list-user-block {
+  padding-left: 50px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.notification-list-user-name {
+  color: #5969ff;
+  font-size: 14px;
+  margin-right: 8px;
+}
